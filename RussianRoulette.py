@@ -20,7 +20,7 @@ def tirer(barillet:list)->bool:
     Prend la liste barillet en paramètre.
     Renvoie True si c'est 1 qui se trouve dans le 5ème indice de
     barillet et rapelle la fonction Revolver pour tirer au hasard la nouvelle position de la balle.
-    Sinon, renvoie False si c'est 0 et décale les éléments de la liste à gauche.
+    Sinon, renvoie False si c'est 0 et décale les éléments de la liste à droite.
     """
     return barillet[5] ==  1
 
